@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875966624692",
+    "project_id": "rotijugaad",
+    "storage_bucket": "rotijugaad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875966624692:android:af0c8c6241568e832678e1",
+        "android_client_info": {
+          "package_name": "com.webminix.rotijugaad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiA7j53LVa2sw4B1qm-M0uzt9hj0DGquo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
