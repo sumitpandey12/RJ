@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'hire_complete.dart';
+import 'screens/UserProfile/hire_complete.dart';
 
 class EmpViewUserProfilePage extends StatefulWidget {
   final int userId;

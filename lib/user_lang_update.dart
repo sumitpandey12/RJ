@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rotijugaad/user_home_page.dart';
-import 'globals.dart';
+import 'package:rotijugaad/screens/Home/user_home_page.dart';
+import 'utils/globals.dart';
 
 class UserUpdateLanguageSelectScreen extends StatefulWidget {
   @override

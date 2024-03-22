@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'globals.dart';
+import 'utils/globals.dart';
 
 class Support extends StatefulWidget {
   @override
@@ -60,7 +60,6 @@ class _SupportState extends State<Support> {
                   }
                 },
                 child: Container(
-                  height: MediaQuery.of(context).size.width / 2.9,
                   width: MediaQuery.of(context).size.width / 1.75,
                   decoration: BoxDecoration(
                     //color: Colors.white,
@@ -92,12 +91,11 @@ class _SupportState extends State<Support> {
               GestureDetector(
                 onTap: () {
                   String url =
-                      "whatsapp://send?phone=919557737233&text=${Uri.encodeFull("message")}";
+                      "whatsapp://send?phone=919536870029&text=${Uri.encodeFull("Hey!")}";
 
                   launch(url);
                 },
                 child: Container(
-                  height: MediaQuery.of(context).size.width / 2.9,
                   width: MediaQuery.of(context).size.width / 1.75,
                   decoration: BoxDecoration(
                     //color: Colors.white,
@@ -134,7 +132,6 @@ class _SupportState extends State<Support> {
                       return Center(
                         child: Container(
                           width: MediaQuery.of(context).size.width / 1.25,
-                          height: MediaQuery.of(context).size.width / 1.25,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(5),
                             color: Colors.white,
@@ -326,7 +323,9 @@ class _SupportState extends State<Support> {
                                     ),
                                   ),
                                   GestureDetector(
-                                    onTap: () {},
+                                    onTap: () {
+                                      //Request a call
+                                    },
                                     child: Container(
                                       width: 200,
                                       height: 50,
@@ -360,7 +359,6 @@ class _SupportState extends State<Support> {
                   );
                 },
                 child: Container(
-                  height: MediaQuery.of(context).size.width / 2.9,
                   width: MediaQuery.of(context).size.width / 1.75,
                   decoration: BoxDecoration(
                     //color: Colors.white,
